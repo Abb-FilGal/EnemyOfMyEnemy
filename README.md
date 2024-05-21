@@ -8,4 +8,4 @@ Eftersom det är menat att vara en rougelike kommer det även finnas uppgraderin
 
 För att spelet ska vara återspelbart måste det finnas något sätt att återuppliva gudarna du har dödat när du själv dör. Man får etablera att när du dör återinställs de odödliga varelser du har förbannat till ***INSERT REALM NAME HERE***(Detta då du inte har dödat gudarna utan endast banlyst dom ett ett liv på vår jord som vanliga människor?).
 
-The game will be made in the godot engine as i want to try something new.
+Spelet kommer skapas i godot eftersom jag aldrig arbetat med det och vill lära mig något nytt.
