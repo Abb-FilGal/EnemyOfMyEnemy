@@ -9,3 +9,73 @@ Eftersom det är menat att vara en rougelike kommer det även finnas uppgraderin
 För att spelet ska vara återspelbart måste det finnas något sätt att återuppliva gudarna du har dödat när du själv dör. Man får etablera att när du dör återinställs de odödliga varelser du har förbannat till ***INSERT REALM NAME HERE***(Detta då du inte har dödat gudarna utan endast banlyst dom ett ett liv på vår jord som vanliga människor?).
 
 Spelet kommer skapas i godot eftersom jag aldrig arbetat med det och vill lära mig något nytt.
+
+## Gods
+Kevin & Gustavsson - gods of day and night
+-
+sun cult
+moon moon cult
+
+small moons that roll towards you
+BRUTE (moon theme)
+archers with golden bows and rays of light
+grenadier with sun grenades
+
+SUN CANNON - slow bomb shooter
+moon scythe  
+
+FLASH - flashbang that stuns nearby enemies.
+KAMEHAMEHA - ray of light.
+MOON SHIELD - ORB that blocks projectiles.
+ 
+Albin - god of war
+-
+Roman cult
+Militia captain
+
+foot soldier
+bulky guy
+sniper
+Tank
+
+AK-47
+HEAVY SNIPER - slow shooting with collateral abilities
+
+combat roll.
+grenades.
+drone support.
+
+Sebastian - god of dreams
+-
+Dreamers (radianceish)
+Sandman
+
+Spirit
+Night terror - drains your energy making you move slower
+Dream ninja - shoots shooting stars
+shadow stalker - (payday 2 cloaker)
+
+Spirit bow - shoots three arrows with blue spirt fire
+Blade of echos - large blade that when used, gives of sound waves
+
+Sandstorm - firestorm around the player that damages foes.
+Mirror of memories - shield that when held up, stuns foes who look at it.
+Phase shift - i frames as you travel through the dream realm for a short duration with increased speed.
+
+JOHN - god of fears
+-
+Big fucking spider 
+Clown (circus supports)
+
+snake
+Giant hounds
+Spiderling - shoots webs
+Deep dark - fear of darkness as you see less and less
+
+Darts of doubt - launch darts that inflict enemies with doubt, making them do less damage
+chains - whip like weapon that knocks enemies back
+
+Claustophobia - summon a spirit cage that traps enemies for a few seconds. 
+Germ shield - cover yourself in germs that give you a temp shield. 
+Haunt - teleports you to the nearest enemy within a radius and stun them breifly. 
+
