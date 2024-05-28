@@ -77,5 +77,21 @@ chains - whip like weapon that knocks enemies back
 
 Claustophobia - summon a spirit cage that traps enemies for a few seconds. 
 Germ shield - cover yourself in germs that give you a temp shield. 
-Haunt - teleports you to the nearest enemy within a radius and stun them breifly. 
+Haunt - teleports you to the nearest enemy within a radius and stun them breifly.
 
+Gustnevsson - god of beasts (WIP)
+-
+Zoo Keeper
+Gorillas
+
+wolves
+Grizzly bear
+porcupine
+Hercules beetle - XXXL size
+
+Grizzly gauntlets
+banana gun
+
+Tortuise shell - turn into a tortuise and recive a large damage reduction.
+giraff swipe - your neck grows large and you spin around the room
+stampede - wild animals swarm the screen, stunning and damaging all it hits.
