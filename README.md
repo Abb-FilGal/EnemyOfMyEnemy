@@ -45,22 +45,22 @@ combat roll.
 grenades.
 drone support.
 
-Sebastian - god of dreams
+Sebastian - god of death
 -
-Dreamers (radianceish)
-Sandman
+Vampires
+Necromany guild
 
-Spirit
+bats
 Night terror - drains your energy making you move slower
-Dream ninja - shoots shooting stars
+Necromany wizard - can reincarnate skeletoins to protect themselves
 shadow stalker - (payday 2 cloaker)
 
-Spirit bow - shoots three arrows with blue spirt fire
-Blade of echos - large blade that when used, gives of sound waves
+Stake launcher - launches stakes at enemies with increased damage against vampires
+Reaper scythe - Swings fast creating ghostly effects peering out of it.
 
-Sandstorm - firestorm around the player that damages foes.
-Mirror of memories - shield that when held up, stuns foes who look at it.
-Phase shift - i frames as you travel through the dream realm for a short duration with increased speed.
+Soul scyphon - suck lifeforce out of nearby enemies, healing from it.
+Reincarnate - reincarnate with 50% health **once** during a run, you can't change ability after you choose it.
+Necrolord - reanimate four ravens who fight by your side for a short duration.
 
 JOHN - god of fears
 -
