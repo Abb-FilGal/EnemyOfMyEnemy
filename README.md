@@ -10,6 +10,34 @@ För att spelet ska vara återspelbart måste det finnas något sätt att återu
 
 Spelet kommer skapas i godot eftersom jag aldrig arbetat med det och vill lära mig något nytt.
 
+## Technical
+
+Dungeon generator
+-
+
+skapa border för map
+placera spawn och bossrum
+hitta lista med rum och dimensioner och antal dörrar
+varje rum ska ha size i chunk (2X1) varje chunk är 4X4 tiles & position för dörrar
+placera ett random rum ur array
+check collision med border och andra rum och ta bort dörrar om dom gränsar border
+OM dörr gränsar
+	stäng och dörrar.count = dörrar.count - 1
+upprepa X antal gånger
+OM dörrar.count / 2 == 0
+stäng en random dörr (inte spawn eller boss)
+för varje dörr
+	hitta närmaste dörr
+	skapa en linje dit (debug)
+	OM två dörrar sitter ihop
+		öppna båda dörrar
+	ANNARS
+		bygg en tunnel mellan dessa
+
+Checka så det finns en valid väg från spawn till bossrum
+![firstdraft dungeon creator](https://github.com/Abb-FilGal/EnemyOfMyEnemy/assets/109916245/1821aa96-c36e-4c50-a837-3caff66e4e83)
+
+
 ## Gods
 Kevin & Gustavsson - gods of day and night
 -
