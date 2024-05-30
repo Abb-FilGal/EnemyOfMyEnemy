@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxkl6xjhxtqs5"]
+
+[ext_resource type="TileSet" uid="uid://cfgufxqp1jk02" path="res://sprites/tilemaps/testroom.tres" id="1_2enss"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("1_2enss")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 1, 0, 1, 65537, 0, 2, 131073, 0, 3, 458753, 0, 65539, 458753, 1, 131075, 458753, 6, 196611, 458753, 7, 196610, 393217, 7, 196609, 65537, 7, 196608, 1, 7, 131072, 1, 6, 65536, 1, 1, 65537, 131073, 2, 131074, 131073, 2, 65538, 262145, 3, 131073, 262145, 3)
