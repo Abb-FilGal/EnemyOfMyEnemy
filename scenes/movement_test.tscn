@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://d20j8sad203ni"]
+
+[ext_resource type="Script" path="res://player_stats.gd" id="1_mutik"]
+[ext_resource type="PackedScene" uid="uid://dxkl6xjhxtqs5" path="res://scenes/rooms/4x4test.tscn" id="1_x2ywp"]
+[ext_resource type="PackedScene" uid="uid://yopsgya0q42i" path="res://movingParts/player.tscn" id="2_tqcm3"]
+
+[node name="movementTest" type="Node2D"]
+script = ExtResource("1_mutik")
+
+[node name="Floor" parent="." instance=ExtResource("1_x2ywp")]
+scale = Vector2(10, 10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_tqcm3")]
+position = Vector2(100, 100)
