@@ -2,11 +2,6 @@
 extends CharacterBody2D
 
 
-
-var speed = 450.0
-const accel = 16.0
-var health = 100.0
-
 var input: Vector2
 
 func get_input():
@@ -15,14 +10,20 @@ func get_input():
 	return input.normalized()
 
 func _process(delta: float):
+	
+	var stats = getStats()
+	print("Current stats:", stats)
+	
 	var playerInput = get_input()
-  
-	velocity = lerp(velocity, playerInput * speed, delta * accel)
+	velocity = lerp(velocity, playerInput * stats["speed"], delta * stats["accel"])
+	
   
 	move_and_slide()
-
-func _ready():
-	print("Speed:", PlayerStats.playerSpeed)
-	PlayerStats.playerSpeed += 50
-	print("Speed2:", PlayerStats.playerSpeed)
+	
+#func _ready() -> void:
+	
+func getStats():
+	var stats = PlayerStats.player
+	return stats
+	
 	

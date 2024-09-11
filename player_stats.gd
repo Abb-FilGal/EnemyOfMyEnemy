@@ -1,10 +1,6 @@
 extends Node
 
-var playerSpeed = 450.0
-var playerHealth = 100.0
-var playerAccel = 16.0
 var player = {"speed": 450.0, "health": 100.0, "accel": 16.0}
-var playercheck = player
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -12,12 +8,12 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	for key in player.keys():
-		var item = player[key]
-		if !playercheck.has(key) or playercheck[key] != item:
-			playercheck[key] = item
-			print("Item:", key, "changed to", item)
+#func _process(delta: float) -> void:
+	#for key in player.keys():
+		#var item = player[key]
+		#if !playercheck.has(key) or playercheck[key] != item:
+			#playercheck[key] = item
+			#print("Item:", key, "changed to", item)
 
 		
 		
