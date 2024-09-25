@@ -5,7 +5,8 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_otmty"]
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D"]
+collision_mask = 2
 script = ExtResource("1_c8msd")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

@@ -1,6 +1,4 @@
-# This line should be the first line in your script
 extends CharacterBody2D
-
 
 var input: Vector2
 
@@ -10,20 +8,18 @@ func get_input():
 	return input.normalized()
 
 func _process(delta: float):
-	
 	var stats = getStats()
 	print("Current stats:", stats)
 	
+	# Get player input
 	var playerInput = get_input()
+
+	# Calculate the new velocity based on input
 	velocity = lerp(velocity, playerInput * stats["speed"], delta * stats["accel"])
-	
-  
+
+	# Move the character
 	move_and_slide()
-	
-#func _ready() -> void:
-	
+
 func getStats():
 	var stats = PlayerStats.player
 	return stats
-	
-	

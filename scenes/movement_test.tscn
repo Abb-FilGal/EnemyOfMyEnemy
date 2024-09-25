@@ -14,9 +14,6 @@ scale = Vector2(10, 10)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("2_tqcm3")]
-position = Vector2(100, 100)
-
 [node name="Button" type="Button" parent="."]
 offset_left = -534.0
 offset_top = -286.0
@@ -26,3 +23,5 @@ script = ExtResource("4_e3o8x")
 
 [node name="spike" parent="." instance=ExtResource("5_6mrim")]
 position = Vector2(-283, 264)
+
+[node name="Player" parent="." instance=ExtResource("2_tqcm3")]
