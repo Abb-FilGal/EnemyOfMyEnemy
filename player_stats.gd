@@ -1,6 +1,6 @@
 extends Node
 
-var player = {"speed": 450.0, "health": 100.0, "accel": 16.0}
+var player = {"speed": 450.0, "health": 100.0, "accel": 16.0, "fireRateChange": 1.0,}
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

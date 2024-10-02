@@ -7,7 +7,7 @@ func get_input():
 	input.y = Input.get_action_strength("down") - Input.get_action_strength("up")
 	return input.normalized()
 
-func _process(delta: float):
+func _physics_process(delta: float) -> void:
 	var stats = getStats()
 	print("Current stats:", stats)
 	

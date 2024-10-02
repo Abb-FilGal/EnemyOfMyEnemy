@@ -1,12 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://c81x5odknktuc"]
+[gd_scene load_steps=4 format=3 uid="uid://c81x5odknktuc"]
 
 [ext_resource type="PackedScene" uid="uid://yopsgya0q42i" path="res://movingParts/player.tscn" id="1_l18p3"]
+[ext_resource type="PackedScene" uid="uid://baolhkd2444m5" path="res://movingParts/basicWeapon.tscn" id="2_jk272"]
 [ext_resource type="PackedScene" uid="uid://c1dd4pnk7jxh2" path="res://movingParts/spike.tscn" id="2_t7q4m"]
 
 [node name="WeaponTest" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_l18p3")]
 position = Vector2(64, 63)
+
+[node name="Sprite2D2" parent="CharacterBody2D" instance=ExtResource("2_jk272")]
 
 [node name="spike" parent="." instance=ExtResource("2_t7q4m")]
 position = Vector2(-363, -148)

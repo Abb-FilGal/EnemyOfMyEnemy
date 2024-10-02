@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://dqywrob14ngd5"]
+[gd_scene load_steps=7 format=3 uid="uid://dqywrob14ngd5"]
 
 [ext_resource type="Script" path="res://player_stats.gd" id="1_mutik"]
 [ext_resource type="PackedScene" uid="uid://dxkl6xjhxtqs5" path="res://scenes/rooms/4x4test.tscn" id="1_x2ywp"]
 [ext_resource type="PackedScene" uid="uid://yopsgya0q42i" path="res://movingParts/player.tscn" id="2_tqcm3"]
 [ext_resource type="Script" path="res://Scripts/testStatChange.gd" id="4_e3o8x"]
 [ext_resource type="PackedScene" uid="uid://c1dd4pnk7jxh2" path="res://movingParts/spike.tscn" id="5_6mrim"]
+[ext_resource type="PackedScene" uid="uid://baolhkd2444m5" path="res://movingParts/basicWeapon.tscn" id="6_l8em3"]
 
 [node name="movementTest" type="Node2D"]
 script = ExtResource("1_mutik")
@@ -25,3 +26,5 @@ script = ExtResource("4_e3o8x")
 position = Vector2(-283, 264)
 
 [node name="Player" parent="." instance=ExtResource("2_tqcm3")]
+
+[node name="Sprite2D2" parent="Player" instance=ExtResource("6_l8em3")]

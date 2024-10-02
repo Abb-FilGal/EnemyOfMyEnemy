@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://baolhkd2444m5"]
+
+[ext_resource type="Texture2D" uid="uid://qki4hbldy3vi" path="res://images/pistol.png" id="1_md8y3"]
+[ext_resource type="Script" path="res://movingParts/basic_weapon.gd" id="2_n0wgu"]
+
+[node name="Sprite2D" type="Sprite2D"]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_md8y3")
+offset = Vector2(600, 0)
+script = ExtResource("2_n0wgu")

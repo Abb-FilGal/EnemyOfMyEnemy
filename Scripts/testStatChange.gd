@@ -11,4 +11,4 @@ func _process(delta: float) -> void:
 	pass
 	
 func _pressed():
-	PlayerStats.player["speed"] += 50
+	PlayerStats.player["fireRateChange"] = PlayerStats.player["fireRateChange"] * 0.8
